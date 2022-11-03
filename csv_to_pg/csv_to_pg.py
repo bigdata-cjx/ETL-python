@@ -15,7 +15,7 @@ class pgConnect:
         self.db_name = "dbname"
         self.db_user = "postgres"
         self.db_password = "123456"
-        self.db_table_name = "500w"
+        self.db_table_name = "t_500w"
 
     def get_pg_connect(self):
         conn = psycopg2.connect(
